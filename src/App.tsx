@@ -1,7 +1,7 @@
 import "./App.css";
-import UserForm from "./components/UserForm";
+import ModalExample from "./components/Modal/ModalExample";
+// import UserForm from "./components/UserForm";
 // import Counter from "./components/Counter";
-// import ModalExample from "./components/ModalExample";
 // import Timer from "./components/Timer";
 // import PageTitle from "./components/PageTitle";
 // import Welcome from "./components/Welcome";
@@ -21,11 +21,11 @@ function App() {
       {/* b5 */}
       {/* <Timer /> */}
       {/* b6 */}
-      {/* <ModalExample /> */}
+      <ModalExample />
       {/* b7 */}
       {/* <Counter /> */}
       {/* b8 */}
-      <UserForm />
+      {/* <UserForm /> */}
     </>
   );
 }
